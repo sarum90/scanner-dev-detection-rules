@@ -3,7 +3,7 @@ name: Marcus broken
 description: |-
   Quick running query 
 enabled: true
-severity: IADFWEF
+severity: Low
 query_text: |-
   %ingest.source_type="aws:cloudtrail"
   | count
