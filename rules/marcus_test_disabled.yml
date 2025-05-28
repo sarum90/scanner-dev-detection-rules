@@ -9,7 +9,7 @@ query_text: |-
   | count
   | where @q.count > 100
 time_range_s: 3600
-run_frequency_s: 60
+run_frequency_s: 600
 event_sink_keys:
 - marcus_test_sink_key
 tags:
