@@ -8,7 +8,6 @@ query_text: |-
   %ingest.source_type="aws:cloudtrail"
   eventSource:lambda.amazonaws.com
   eventName:CreateFunction
-  | where not requestParameters.functionName matches "^(prd|dev|demo|adm)-sum-useast1-[a-z0-9-]+$
 time_range_s: 3600
 run_frequency_s: 600
 event_sink_keys:
