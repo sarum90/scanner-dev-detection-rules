@@ -1,7 +1,7 @@
 # schema: https://scanner.dev/schema/scanner-detection-rule.v1.json
 name: "Marcus disabled test updated 6/3"
 description: |-
-  Quick running query, disabled
+  Quick running query, disabled. Description update 2025-06-03
 enabled: false
 severity: Low
 query_text: |-
